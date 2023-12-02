@@ -31,7 +31,7 @@ export function BEATBOOK({ navigation }) {
       <Pressable
         style={[styles.dashboardWrapper, styles.wrapperFlexBox]}
         onPress={() => {
-          navigation.navigate("DashBoard");
+          navigation.navigate("BeatDashBoard");
         }}
       >
         <Text style={[styles.dashboard, styles.beat3Typo]}>Dashboard</Text>
